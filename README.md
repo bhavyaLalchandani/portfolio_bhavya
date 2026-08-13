@@ -44,7 +44,7 @@ npx serve .
 **Option A — Vercel CLI (fastest, no GitHub needed)**
 ```bash
 npm i -g vercel        # one-time
-cd portfolio-v2
+cd portfolio
 vercel                 # first deploy, follow the prompts
 vercel --prod          # promote to your production URL
 ```
@@ -55,7 +55,7 @@ Vercel auto-detects this as a static site — no framework, no build command nee
    ```bash
    git init
    git add .
-   git commit -m "portfolio v2"
+   git commit -m "portfolio"
    git branch -M main
    git remote add origin https://github.com/<you>/<repo>.git
    git push -u origin main
@@ -65,7 +65,7 @@ Vercel auto-detects this as a static site — no framework, no build command nee
 4. Deploy. Every future `git push` auto-redeploys.
 
 **Option C — Drag and drop**
-Go to vercel.com/new, drag the whole `portfolio-v2` folder onto the page. Done.
+Go to vercel.com/new, drag the whole `portfolio` folder onto the page. Done.
 
 ## Custom domain
 Once deployed, add a custom domain under Project → Settings → Domains if you
